@@ -1,0 +1,25 @@
+/* all*/
+p1, p2, p3, p4{
+    font-family: Georgia;
+    font-size: 15pt;
+    font-style: oblique;
+    
+}
+/*2nd and 4th line*/
+p2, p4 {
+    color: coral;
+}
+/*1st and 3rd line*/
+p1, p3{
+    color: deeppink;
+}
+body{
+    background-color: antiquewhite;
+}
+.center{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #0eeb06;
+    padding: 10px;
+    text-align: center;
+}
