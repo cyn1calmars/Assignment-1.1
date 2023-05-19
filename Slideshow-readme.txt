@@ -1,3 +1,4 @@
+"Run and click through a Slideshow"
 Download Visual Studio
 Open up files, "SlideshowMD.html, SlideshowMD.css, and SlideshowMD.js"
 Click "Run" and click "Start Debugging" 
