@@ -1,0 +1,21 @@
+body{
+  background-color: ivory;
+}
+
+h1{
+  text-align: center;
+  color: rgb(255, 135, 80);
+}
+
+.slideshow{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.buttons{
+  text-align: center;
+  color: crimson;
+}
