@@ -1,0 +1,43 @@
+/*Welcome message*/
+.title{
+    text-align: center;
+}
+/*Checkers Board*/
+#checkersBoard{
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 410.8px;
+    height: 410.8px;
+    margin: auto;
+    
+}
+/*Each square that makes the board and holds the checker pieces*/
+.square{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(243, 203, 171);
+}
+/*Ohter squares on board*/
+.bg{
+    background-color: rgb(54, 31, 4) ;
+}
+/*All Checker pieces*/
+.checker{
+    width: 44px;
+    height: 44px;
+    margin: 2.5px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px rgb(97, 97, 97);
+    cursor: pointer;
+}
+/*Checkers on the top of the board*/
+.checker-i{
+    background-color: rgb(247, 241, 215);
+}
+/*Checkers on the bottom of the board*/
+.checker-b{
+    background-color: rgb(205, 163, 145);
+}
