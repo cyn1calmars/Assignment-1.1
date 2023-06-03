@@ -4,12 +4,14 @@ body{
     text-align: center;
 }
 
+/*Flower*/
 .flower{
     cursor: pointer;
     display: block;
     margin: auto;
 }
 
+/*Bee on yellow flower*/
 .bee{
     cursor: pointer;
     display: block;
