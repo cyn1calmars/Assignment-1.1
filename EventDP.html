@@ -11,17 +11,23 @@
 <body>
 <h1>Event Driven Programming</h1>
 
+    <!--Image of flowers-->
     <img class="flower" src="https://img.freepik.com/free-photo/blossom-floral-bouquet-decoration-colorful-beautiful-flowers-background-garden-flowers-plant-pattern-wallpapers-greeting-cards-postcards-design-wedding-invites_90220-1103.jpg"
     id="imgFlowers" height="200px" alt="Flowers Picture" onclick="imageEvent();">
 
+    <!--Image of a bee on yellow flower-->
     <img class="bee" src="https://img.freepik.com/premium-photo/bee-flower_836919-1043.jpg"
     id="imgBee" height="200px" alt="Bee Picture" onclick="changeimg();">
 
+    <!--Form question -->
     <form name="frmTest" id="frmTest" onsubmit="return validateInput();">
+        <!--Question-->
         <label for="txtflower">What color did the flower the bee is on, change to?</label>
         <br>
+        <!--Text box to answer question-->
         <input type="text" id="txtflower" onfocus="this.value=''">
 
+        <!--Submit answer-->
         <input type="submit" value="Submit">
 
 </body>
