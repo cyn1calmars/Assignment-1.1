@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(254, 85, 119);
+    color: aliceblue;
+    text-align: center;
+}
+
+.flower{
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.bee{
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}

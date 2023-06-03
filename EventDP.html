@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="EventDP.css" rel="stylesheet">
+    <script src="EventDP.js"></script>
+    <title>Event Driven Programming</title>
+</head>
+<body>
+<h1>Event Driven Programming</h1>
+
+    <img class="flower" src="https://img.freepik.com/free-photo/blossom-floral-bouquet-decoration-colorful-beautiful-flowers-background-garden-flowers-plant-pattern-wallpapers-greeting-cards-postcards-design-wedding-invites_90220-1103.jpg"
+    id="imgFlowers" height="200px" alt="Flowers Picture" onclick="imageEvent();">
+
+    <img class="bee" src="https://img.freepik.com/premium-photo/bee-flower_836919-1043.jpg"
+    id="imgBee" height="200px" alt="Bee Picture" onclick="changeimg();">
+
+    <form name="frmTest" id="frmTest" onsubmit="return validateInput();">
+        <label for="txtflower">What color did the flower the bee is on, change to?</label>
+        <br>
+        <input type="text" id="txtflower" onfocus="this.value=''">
+
+        <input type="submit" value="Submit">
+
+</body>
+</html>
