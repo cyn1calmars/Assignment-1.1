@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/1f/02/44/1f02440c0456c24b3522b247ed47a15b.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap">
+    <link href="Friends.css" rel="stylesheet"><!--CSS-->
+    <title>Friends List</title>
+  </head>
+  <body>
+
+    <!--Back Button-->
+<div class="Backbtn">
+  <a href="HomePage.html">
+    <img class="btn-pic" src="https://i.pinimg.com/originals/79/d6/43/79d643c46945b1051bc3faeb91c378c7.png">
+  </a> 
+</div>
+
+<!--Add Friends Button-->
+<button id="addFriendsbtn" class="addfriends">Add Friends</button>
+
+<!-- The Modal for first pic-->
+<div id="myModal" class="modal">
+
+  <!-- Modal content for first pic-->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <!--Generates random number code-->
+<h4>Your Code:<span id="randomcode"></span></h4>
+
+<h2>ENTER CODE</h2>
+
+<!--Enter Code-->
+  <div class="code" id="code">
+    <p contenteditable="true"></p>
+  </div>
+<!--Shows how many numbers to enter-->
+  <div class="lines"><p>__ __ __ __ __ __</p></div>
+<!--Submit Code-->
+  <button class="submitcode" id="submitcode" onclick="code()">ENTER</button>
+
+  </div>
+
+</div>
+
+    <script src="Friends.js"></script><!--JavaScript-->
+  </body>
+</html>

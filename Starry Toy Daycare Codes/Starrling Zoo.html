@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/1f/02/44/1f02440c0456c24b3522b247ed47a15b.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap">
+    <link href="Starrling Zoo.css" rel="stylesheet"> <!--CSS-->
+    <title>Starrling Zoo</title>
+  </head>
+
+<body> 
+
+  <!--Back button to Home Page-->
+<div class="Backbtn">
+  <a href="HomePage.html">
+<!--Arrow--><img class="btn-pic" src="https://i.pinimg.com/originals/79/d6/43/79d643c46945b1051bc3faeb91c378c7.png">
+  </a>    
+</div>
+
+<!--About Section for the Zoo-->
+  <div class="Aboutzoo">
+  <p>The Starrlings zoo holds all your precious toys and best buddies for safe keepings.<br>
+    Just add your starrlings down below for your enjoyment forever. <br>
+    You will be able to play with them in the Playground and keep them in the Playhouse!</p>
+  </div>
+
+<!--Header to cover shelves-->
+  <div class="header">
+    <img src="https://i.pinimg.com/originals/ac/23/33/ac2333d69cb3ca6cd6d863bb30d9d6f3.png" width="95%" height="auto">
+  </div>
+
+<!--Toy on display-->
+  <div class="toybox">
+
+    <div class="row">
+
+      <div class="column">
+        <button id="myBtn" class="starrlingbtn">
+          <img src="https://m.media-amazon.com/images/I/61keW+OJkRL.jpg" width="100%">
+        </button>
+      </div>
+
+      <div class="column">
+        <button id="myBtn2" class="starrlingbtn">
+          <img src="https://m.media-amazon.com/images/I/51RHhFOGr7L.jpg" style="width:100%">
+        </button>
+      </div>
+
+      <div class="column">
+        <button id="myBtn3" class="starrlingbtn">
+          <img src="https://m.media-amazon.com/images/I/61CRgzCmY1L.jpg" style="width:100%">
+        </button>
+      </div>
+
+    </div>
+
+<!--Shelf--><img class="shelf" src="https://i.pinimg.com/originals/c6/0b/4e/c60b4e9b49ed3d1e67ad604d274e7f40.png" width="95%" height="auto"> 
+
+  </div>
+
+<!-- The Modal for first toy-->
+<div id="myModal" class="modal">
+
+  <!-- Modal content for first toy-->
+  <div class="modal-content">
+
+    <span class="close">&times;</span><!--Close (x)-->
+
+    <!--Picture of first toy-->
+    <img src="https://m.media-amazon.com/images/I/61keW+OJkRL.jpg" width="20%">
+  
+    <!--Description for the first toy-->
+    <div class="desc">
+
+  <h3>About:<span contenteditable="true">Dutch</span></h3><!--Name editable-->
+  
+  <!--Description editable-->
+  <p contenteditable="true">
+    Dutch is full of spark and energy, but can be protective with his owners. 
+    He is a Shiba Inu and has beautiful tan and white fur.
+    Dutch will stand at the door for you to arrive and will bark at anything that moves.
+    Dutch is the perfect companion for anyone who loves dogs and wants a protector at all times.</p>
+</div>
+  
+<!--"Name" is not editable, while "Dutch" is-->
+    <p><span style="font-size: 20px;">Name:</span><span contenteditable="true">Dutch</span></p>
+
+<!--Enter in Date for Birthday-->
+      <label for="birthday">Birthday:</label>
+      <input value=""type="date" name="bday" id="datePicker" onblur="Birthday()">
+      <button>Set</button>
+
+  </div>
+</div>
+
+<!-- The Modal for Second toy-->
+<div id="myModal2" class="modal2">
+
+  <!-- Modal content for second toy-->
+  <div class="modal-content">
+
+    <span2 class="close2">&times;</span2><!--Close(x)-->
+
+    <!--Picture of Second toy-->
+    <img src="https://m.media-amazon.com/images/I/51RHhFOGr7L.jpg" width="20%">
+
+    <!--Description for the Second toy-->
+    <div class="desc">
+      <h3>About:<span contenteditable="true">Ember</span></h3><!--Name editable-->
+
+      <!--Description editable-->
+      <p contenteditable="true">
+        Ember is the 3 C's. Cute, chubby, and cuddly. Ember has soft black and tan fur.
+        Eyes are big and round and although he has a angry little face, he is friendly and inviting.  
+        Ember is the perfect companion for anyone who loves dogs and wants a snuggly friend to keep them company forever.</p>
+    </div>
+
+<!--"Name" is not editable, while "Ember" is-->
+    <p><span style="font-size: 20px;">Name:</span><span contenteditable="true">Ember</span></p>
+
+<!--Enter in Date for Birthday-->
+    <label for="birthday">Birthday:</label>
+    <input value="" type="date" name="bday" id="datePicker" onblur="Birthday()">
+    <button>Set</button>
+  </div>
+</div>
+
+<div id="myModal3" class="modal3">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    
+    <span3 class="close3">&times;</span3><!--Close(x)-->
+
+    <!--Picture of Third toy-->
+    <img src="https://m.media-amazon.com/images/I/61CRgzCmY1L.jpg" width="20%">
+
+    <!--Description for the Third toy-->
+    <div class="desc">
+      <h3>About:<span contenteditable="true">Rainbow</span></h3><!--Name editable-->
+
+      <!--Description editable-->
+      <p contenteditable="true">
+        Rainbow is a smart and lovable Shiba Inu dog who will wait for you patiently.
+        She walks by your side and will play fetch all day. She will sleep next you and cuddle in your arms.
+        She is cute and cuddly but will protect you against anyone.</p>
+    </div>
+
+<!--"Name" is not editable, while "Rainbow" is-->
+    <p><span style="font-size: 20px;">Name:</span><span contenteditable="true">Rainbow</span></p>
+    
+<!--Enter in Date for Birthday-->
+    <label for="birthday">Birthday:</label>
+    <input value=""type="date" name="bday" id="datePicker" onblur="Birthday()">
+    <button>Set</button>
+  </div>
+</div>
+
+    <script src="Starrling Zoo.js"></script><!--JavaScript-->  
+  </body>
+</html>

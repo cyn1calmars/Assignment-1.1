@@ -1,0 +1,41 @@
+body{
+    background-color: lightpink;
+    text-align: center;
+    margin-top: 50px;
+    overflow: auto;
+}
+
+/*Back button*/
+.Backbtn{
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    margin-left: -300px;
+    cursor: pointer;
+  }
+  /*Button size smaller*/
+  .btn-pic{
+    width: 10%;
+  }
+/*Title*/
+h1{
+  color:mediumslateblue;
+}
+
+/*Section Page Title*/
+  h2{
+    color: rgb(166, 0, 72);
+    text-decoration: 2px white underline;
+  }
+
+  /*Questions*/
+  h3{
+    color: rgb(141, 16, 152);
+  }
+
+  /*Answers*/
+  p{
+    color:rgb(97, 0, 94);
+    max-width: 800px;
+    margin: auto;
+  }

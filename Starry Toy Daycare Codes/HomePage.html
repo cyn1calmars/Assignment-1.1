@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/1f/02/44/1f02440c0456c24b3522b247ed47a15b.png">
+    <link href="HomePage.css" rel="stylesheet"><!--CSS-->
+    <script src="HomePage.js"></script> <!--JavaScript-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Starry Toy DayCare Home</title>
+  </head>
+  <body>
+
+<!--Logo-->    
+    <div class="logostarry">
+      <img src="https://i.pinimg.com/originals/b7/53/93/b753933870e34e098edf9bec83b0175a.png" alt="logo" width="25%" position="static" usemap="#logo">
+    </div>
+
+<map name="logo">
+  <!-- Welcome Page --> <area shape="rect" coords="0,0,960,540" alt="Welcome Page" href="Landing Page.html">
+</map>
+
+<!--FAQ Button-->
+<div class="faqsect">
+<a href="FAQ.html">FAQ</a>
+  </div>
+
+<!--Login/Signup Button-->
+    <div class="Login-Signup">
+      <button class="btn">Login/Sign Up</button>
+      <div class="dropdown">
+        <button class="btn"><i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+<!--Login btn inside dropdown--><a onclick="document.getElementById('popup').style.display='block'" style="width:auto;">Login</a>
+<!--Sign-up btn inside dropdown--><a onclick="document.getElementById('popup2').style.display='block'" style="width:auto;">Sign Up</a>
+        </div>
+      </div>
+    </div>
+
+<!--Popup window for Login-->
+    <div id="popup" class="logandSignfrm">
+
+      <span onclick="document.getElementById('popup').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <form class="modal-content animate">
+          
+    
+  <!--Popup container-->
+    <div class="container">
+
+      <!--Username and textbox-->
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <!--Password and textbox-->
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+<!--Login--><button class="submit" onclick="submission()">Login</button>
+    
+<!--Cancel--><button type="button" onclick="document.getElementById('popup').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+
+      </form>
+    </div>
+
+    <!--Popup window for Sign-Up-->
+    <div id="popup2" class="logandSignfrm">
+
+      <span onclick="document.getElementById('popup2').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <form class="modal-content animate">
+
+
+        <!--Popup container-->
+        <div class="container">
+
+          <!--Sign-Up textbox-->
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+
+          <hr>
+
+          <!--Email textbox-->
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+
+          <!--Password textbox-->
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+    
+          <!--Repeat Password Textbox-->
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            
+<!--Cancel Button--><button type="button" onclick="document.getElementById('popup2').style.display='none'" class="cancelbtn">Cancel</button>
+<!--Sign-Up Button--><button class="submit" onclick="submission2()">Sign Up</button>
+        </div>
+      </form>
+      </div>
+
+<!--Map-->    
+<img src="https://i.pinimg.com/originals/73/e4/90/73e490c7f9ea45f52a22d815023194f9.png" alt="Map" usemap="#Daycaremap" width="854" height="481">
+    <map name="Daycaremap">
+      <!-- Zoo --> <area shape="poly" coords="30,158, 58,126, 72,128, 100,160, 106,218, 146,210, 152,182, 176,182, 182,248, 212,250, 230,206, 262,206, 262,274, 222,280, 152,290, 248,274, 30,272" alt="zoo" href="Starrling Zoo.html">
+      <!-- Playhouse --> <area shape="poly" coords="584,240, 628,212, 740,214, 764,244, 760,328, 706,360, 588,336" alt="Playhouse" href="PlayHouse Room.html">
+      <!-- PlayGround --> <area shape="poly" coords="256,294, 266,276, 320,246, 320,200, 346,166, 376,150, 406,198, 444,196, 444,170, 478,126, 514,170, 570,180, 600,224, 580,244, 582,264, 540,286, 506,264, 490,288, 450,296, 434,286, 418,304" alt="Playground" href="Playground.html">
+      <!-- Friends --> <area shape="poly" coords="438,290, 460,320, 490,314, 504,264, 546,314, 544,368, 368,372, 384,328, 410,322" alt="Friends" href="Friends.html">
+      <!-- Shop --> <area shape="poly" coords="10,284, 140,280, 190,300, 210,300, 200,332, 176,352, 140,352, 118,360, 118,364, 130,370, 130,422, 110,432, 52,420, 30,440, 0,430, 0,362, 6,362" alt="Shopping" href="shopping.html">
+    </map>
+
+
+  </body>
+</html>

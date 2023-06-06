@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/1f/02/44/1f02440c0456c24b3522b247ed47a15b.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Montserrat+Alternates:wght@100;300&display=swap" rel="stylesheet">
+    <link href="shopping.css" rel="stylesheet"> <!--CSS-->
+    <title>Shopping Mall</title>
+  </head>
+
+<body>
+
+    <!--Back Button to Home Page-->
+  <div class="Backbtn">
+    <a href="HomePage.html">
+      <img class="btn-pic" src="https://i.pinimg.com/originals/79/d6/43/79d643c46945b1051bc3faeb91c378c7.png">
+    </a> 
+  </div>
+
+<!--Tabs to switch -->
+<div class="tab">
+
+<!--Furniture Tab--><button class="shoptabs" onclick="opentab(event, 'Furniture')" id="defaultOpen">Furniture</button>
+
+<!--Wallpaper Tab--><button class="shoptabs" onclick="opentab(event, 'Wallpapers')">Wallpapers</button>
+
+</div>
+
+<!--FURNITURE TAB CONTENT-->
+  <div id="Furniture" class="tabcontent">
+    <img src="https://i.pinimg.com/originals/c1/34/19/c13419b03f6af80f4839efa3bc8218f1.png" width="100%">
+    
+    
+<!--First Column-->   <div class="btncol1">
+
+<!--Start of Col.-->  <div class="btnrow1"><button class="buybtn" onclick="furniture()">Buy</button></div>
+<!--Middle Col.-->    <div class="btnrow2"><button class="buybtn" onclick="furniture()">Buy</button></div>
+<!--End of Col.-->    <div class="btnrow3"><button class="buybtn" onclick="furniture()">Buy</button></div>
+
+</div>
+
+<!--Second Column-->  <div class="btncol2">
+
+<!--Start of Col.-->  <div class="btnrow1"><button class="buybtn" onclick="furniture()">Buy</button></div>
+<!--Middle Col.-->    <div class="btnrow2"><button class="buybtn" onclick="furniture()">Buy</button></div>
+<!--End of Col.-->    <div class="btnrow3"><button class="buybtn" onclick="furniture()">Buy</button></div>
+
+</div>
+
+<!--Third Column-->   <div class="btncol3">
+
+<!--Start of Col.-->  <div class="btnrow1"><button class="buybtn" onclick="furniture()">Buy</button></div>
+<!--Middle Col.-->    <div class="btnrow2"><button class="buybtn" onclick="furniture()">Buy</button></div>
+<!--End of Col.-->    <div class="btnrow3"><button class="buybtn" onclick="furniture()">Buy</button></div>
+
+</div>
+
+  </div>
+
+  <!--Furniture Popup-->
+  <div id="popup">You bought:Furniture set</div>
+
+  <!--WALLPAPER TAB CONTENT-->
+
+  <div id="Wallpapers" class="tabcontent">
+    <img src="https://i.pinimg.com/originals/44/5b/1f/445b1fb89b9494ac17ee120ef8b0a8f8.png" alt="Map" usemap="#Wallpapermap" width="100%" height="auto">
+    <map name="Wallpapermap">
+      <!-- Space --> <area shape="rect" coords="14,20,90,96" alt="Space" href="https://i.pinimg.com/originals/ee/55/0a/ee550ae872364ffc697b58c4a7f77bbe.png" target="_blank">
+      <!-- Underwater --> <area shape="rect" coords="140,20,216,96" alt="Underwater" href="https://i.pinimg.com/originals/f3/ad/7e/f3ad7eaf1c4226a51074e1782310a162.png" target="_blank">
+      <!-- Jungle --> <area shape="rect" coords="268,20,344,96" alt="Jungle" href="https://i.pinimg.com/originals/13/9c/5e/139c5e11451eb9c9b4959cdc1fd054c7.png" target="_blank">
+      <!-- Party --> <area shape="rect" coords="14,140,90,216" alt="Party" href="https://i.pinimg.com/originals/d7/36/d5/d736d5f0e5803ff572e7b800a7147519.png" target="_blank">
+      <!-- Volcano --> <area shape="rect" coords="140,140,220,200" alt="Volcano" href="https://i.pinimg.com/originals/85/ca/b4/85cab4ff1b5207ea726158c7438da305.png" target="_blank">
+      <!-- Purple --> <area shape="rect" coords="266,140,344,216" alt="Purple" href="https://i.pinimg.com/originals/b3/a8/2a/b3a82afb4fe7758491a3565e8ff2fbac.png" target="_blank">
+      <!-- Night --> <area shape="rect" coords="14,246,90,320" alt="Night" href="https://i.pinimg.com/originals/0d/4e/37/0d4e37dc6a9b024b2410b41efae5214e.png" target="_blank">
+      <!-- Forest --> <area shape="rect" coords="140,246,220,320" alt="Forest" href="https://i.pinimg.com/originals/d6/2d/19/d62d19bf68e6181443428683551c7957.png" target="_blank">
+      <!-- Desert --> <area shape="rect" coords="268,246,344,320" alt="Desert" href="https://i.pinimg.com/originals/7c/db/61/7cdb61bd002bc72806308303cecaa582.png" target="_blank">
+    </map>
+
+<!--First Column-->   <div class="btncol1">
+
+<!--Start of Col.-->  <div class="btnrow4"><button class="buybtn" onclick="wallpaper()">Buy</button></div>
+<!--Middle Col.-->    <div class="btnrow5"><button class="buybtn" onclick="wallpaper()">Buy</button></div>
+<!--End of Col.-->  <div class="btnrow6"><button class="buybtn" onclick="wallpaper()">Buy</button></div>
+
+</div>
+
+<!--Second Column-->   <div class="btncol2">
+
+<!--Start of Col.-->  <div class="btnrow4"><button class="buybtn" onclick="wallpaper()">Buy</button></div>
+<!--Middle Col.-->    <div class="btnrow5"><button class="buybtn" onclick="wallpaper()">Buy</button></div>
+<!--End of Col.-->  <div class="btnrow6"><button class="buybtn" onclick="wallpaper()">Buy</button></div>
+
+</div>
+
+<!--Third Column-->   <div class="btncol3">
+
+<!--Start of Col.-->  <div class="btnrow4"><button class="buybtn" onclick="wallpaper()">Buy</button></div>
+<!--Middle Col.-->    <div class="btnrow5"><button class="buybtn" onclick="wallpaper()">Buy</button></div>
+<!--End of Col.-->  <div class="btnrow6"><button class="buybtn" onclick="wallpaper()">Buy</button></div>
+
+</div>
+
+</div>
+
+  <!--Wallpaper Popup-->
+  <div id="popup2">You bought:Wallpaper set</div>
+
+<!--JavaScript--><script src="shopping.js"></script>
+  </body>
+  </html>

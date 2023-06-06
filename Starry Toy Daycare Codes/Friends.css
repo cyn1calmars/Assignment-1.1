@@ -1,0 +1,97 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/7b/89/b8/7b89b88833aa6888de78c9707142256f.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Back button*/
+.Backbtn {
+    position: fixed;
+    margin: 25px;
+    width: 40%;
+  }
+
+/*Size down photo*/  
+.btn-pic {
+    width: 20%;
+  }
+
+  /*Add Friends Button*/
+  .addfriends{
+    float: right;
+    font-size: 20px;
+    font-family: 'cherry bomb one';
+    background-color: rgb(255, 87, 20);
+    color: white;
+  }
+
+    /* The Modal (background) */
+    .modal{
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 5; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+    .modal-content {
+      background-color: #9f1bc7;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #000000;
+      max-width: 40%;
+    }
+
+    /* The Close Button */
+    .close, .close2, .close3 {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+        
+    .close:hover, .close2:hover, .close3:hover {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+/*Enter Code title*/
+h2{
+  color: white;
+  text-align: center;
+}
+
+/*User code*/
+h4{
+  color: white;
+}
+
+/*Code size enlarged*/
+.code{
+  font-size: 90px;
+  color: white;
+  text-align: center;
+  margin-top: -80px;
+}
+
+/*Underline*/
+.lines{
+  color: white;
+  font-size: 37px;
+  text-align: center;
+  margin-top: -130px;
+}
+
+/*Editable text*/
+[contenteditable]{
+  outline: 0px transparent;
+}

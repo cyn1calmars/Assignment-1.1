@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(239, 207, 237);
+    /*Background Welcome Sign*/
+    background-image: url("https://i.pinimg.com/originals/42/7c/c1/427cc15baa7e957622df204847679290.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 95%;
+    background-attachment:scroll;
+    overflow:auto;
+}
+
+/*Guest Sign in button*/
+.btn a{
+  background-color: rgb(241, 138, 127);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 14px;
+  border: none;
+  outline:none;
+  font-family: Georgia;
+  text-decoration: none;/*Removes link underline*/
+  float: right;
+  margin-right: 55px;
+}

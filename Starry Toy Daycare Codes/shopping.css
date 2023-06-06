@@ -1,0 +1,133 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/a2/13/e5/a213e5d4559100784583d69cb006b546.png);
+    background-color: #fdfded;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 80%;
+    overflow: auto;
+}
+/*Back Button*/
+.Backbtn{
+  position: relative;
+  z-index: 2;
+  width: 70%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/*Arrow*/
+.btn-pic{
+  width: 10%;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    position: absolute;
+    margin-left: 670px;
+    margin-top: -10px;
+    z-index: 1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color:#ff9fb9;
+    position: static;
+    display: inline;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ffdddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color:aliceblue;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    margin-left: 600px;
+    margin-top: 70px;
+    max-width: 28%;
+    min-width: 28%;
+    display:contents;
+    position:absolute;
+    z-index: 2;
+  }
+
+/*3 Columns overlap furniture & wallpapers*/
+.btncol1, .btncol2, .btncol3{position:absolute;}
+
+/*Creates the spacing to go directly under each picture*/
+.btncol1{margin-left: 35px;}
+.btncol2{margin-left: 163px;}
+.btncol3{margin-left: 297px;}
+
+/*Allows overlapping*/
+.btnrow1, .btnrow2, .btnrow3, .btnrow4, .btnrow5, .btnrow6{position:absolute;}
+
+/*Creates the row for furniture and wallpaper (rows:1-3=furniture)(rows:4-6=wallpapers)*/
+/*Needed to create separate rows as the buttons were covering the wallpapers*/
+.btnrow1{margin-top: -290px;}
+.btnrow2{margin-top: -170px;}
+.btnrow3{margin-top: -50px;}
+.btnrow4{margin-top:-260px;}
+.btnrow5{margin-top:-135px;}
+.btnrow6{margin-top:-20px;}
+
+/*Button Styling*/
+  .buybtn{
+    background-color: #ffffff;
+    border:2px solid #ff9fb9;
+    border-radius: 25px #000000;
+    color: rgb(255, 0, 128);
+    font-family: 'Montserrat Alternates', sans-serif;
+    cursor: pointer;
+    display: inline;
+    z-index: 3;
+  }
+
+  /*Popup message for both tabs*/
+  #popup, #popup2 {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  /*When the message is shown itll fade in and out*/
+  #popup.show, #popup2.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
